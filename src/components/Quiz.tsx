@@ -54,11 +54,11 @@ const Quiz = () => {
         >
           Meaning
         </FormLabel>
-        <RadioGroup value={ans} onChange={(e) => setAns(e.target.value)}>
+        <RadioGroup  value={ans} onChange={(e) => setAns(e.target.value)}>
           {words[count]?.options.map((i, idx) => (
             <FormControlLabel
               value={i}
-              control={<Radio />}
+              control={<Radio/>}
               label={i}
               key={idx}
             />
@@ -68,6 +68,7 @@ const Quiz = () => {
       <Button
         sx={{
           margin: "3rem 0",
+          backgroundColor: "black",
         }}
         variant="contained"
         fullWidth

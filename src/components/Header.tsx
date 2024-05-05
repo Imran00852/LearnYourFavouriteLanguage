@@ -9,7 +9,9 @@ const styles={
 
 const Header = () => {
   return (
-    <AppBar position="static">
+    <AppBar position="static" sx={{
+      backgroundColor:"black"
+    }}>
       <Toolbar>
         <Typography variant="h5" mr={"auto"} textTransform={"uppercase"}>
           LearnDo

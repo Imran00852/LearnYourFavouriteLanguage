@@ -32,7 +32,7 @@ const Result = () => {
 
   return (
     <Container maxWidth={"sm"}>
-      <Typography variant="h3" color={"primary"} m={"2rem 0"}>
+      <Typography variant="h3" color={"prima"} m={"2rem 0"}>
         Result
       </Typography>
       <Typography m={"1rem"} variant="h6">
@@ -76,7 +76,7 @@ const Result = () => {
 
       <Button
         onClick={resetHandler}
-        sx={{ margin: "1rem" }}
+        sx={{ margin: "1rem", backgroundColor: "black" }}
         variant="contained"
       >
         Reset

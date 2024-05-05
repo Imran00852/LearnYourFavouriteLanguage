@@ -41,6 +41,9 @@ const Home = () => {
             onClick={() => selectLanguageHandler(i.code)}
             key={i.code}
             variant="contained"
+            sx={{
+              backgroundColor:"black"
+            }}
           >
             {i.name}
           </Button>
