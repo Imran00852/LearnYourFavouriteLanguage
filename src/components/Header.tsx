@@ -12,7 +12,7 @@ const Header = () => {
     <AppBar position="static">
       <Toolbar>
         <Typography variant="h5" mr={"auto"} textTransform={"uppercase"}>
-          Language Learner
+          LearnDo
         </Typography>
         <Link style={styles} to={"/"}>Home</Link>
         <Link style={styles}to={"/login"}>Login</Link>
